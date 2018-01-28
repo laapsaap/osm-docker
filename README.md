@@ -1,37 +1,30 @@
-# Running OpenStreetMap Carto with Docker
+# Running OpenStreetMap in Docker
 
-This project is assumed to be a replacement for current [OpenStreetMap Carto](https://github.com/gravitystorm/openstreetmap-carto)'s docker facilities. 
+Forked from OnkelTem/osmcarto-docker and his project was assumed to be a replacement for current [OpenStreetMap Carto](https://github.com/gravitystorm/openstreetmap-carto)'s docker facilities. 
+
+I forked because I think we can make osm-docker a standalone project instead part of openstreetmap-carto.
+I forked because I am making all containers RHEL at some point.
+I forked because I think some commercial companies in the openstreetmap scene is f*cking up openstreetmap.
+I forked because I think openstreetmap is currently a big pile of sh*t.
 
 ## Prerequisites
 
 Docker is available for Linux, macOS and Windows. Apart from Docker Engine itself there is a set of automation tools
-commonly used to manage containers. To get OpenStreetMap Carto running you will need [Docker Compose](https://docs.docker.com/compose/) 
-and [Dobi](https://dnephin.github.io/dobi/).
+commonly used to manage containers. To get osm-docker running you will need; 
 
 * [Install Docker](https://docs.docker.com/engine/installation/)
 * [Install Docker Compose](https://docs.docker.com/compose/install/)
 * [Install Dobi](https://dnephin.github.io/dobi/install.html)
 
-## Get sources
+## Instructions
  
 Download openstreetmap-carto release or just grab the latest sources and switch to the fetched directory:
 
 ```
-$ git clone https://github.com/gravitystorm/openstreetmap-carto.git
-$ cd openstreetmap-carto
+$ git clone https://github.com/laapsaap/osm-docker.git /opt/osm-docker
+$ cd /opt/osm-docker
+$ ./run.sh
 ```
-
-Clone this project into `docker` subdirectory:
-
-```
-$ git clone https://github.com/OnkelTem/osmcarto-docker.git docker
-```
-
-## Get OSM data
-
-Download OSM data of your interest in osm.pbf format to a file `data.osm.pbf` and place it within your `openstreetmap-carto` directory.
-
-*@Todo: Automate getting and updating OSM data.*
 
 ## Initialize
 
