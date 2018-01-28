@@ -3,9 +3,12 @@
 Forked from OnkelTem/osmcarto-docker and his project was assumed to be a replacement for current [OpenStreetMap Carto](https://github.com/gravitystorm/openstreetmap-carto)'s docker facilities. 
 
 I forked because I think we can make osm-docker a standalone project instead part of openstreetmap-carto.
+
 I forked because I am making all containers RHEL at some point.
-I forked because I think some commercial companies in the openstreetmap scene is f*cking up openstreetmap.
-I forked because I think openstreetmap is currently a big pile of sh*t.
+
+I forked because I think some commercial companies in the openstreetmap scene is f\*cking up openstreetmap.
+
+I forked because I think openstreetmap is currently a big pile of sh\*t.
 
 ## Prerequisites
 
